@@ -13,6 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2024-06-10
 
 ### Added
-- Initial commit with base Next.js project.
+- Initial commit with base HTML project.
 - Added README and CHANGELOG files.
 - Set up basic SEO configuration.
