@@ -1,7 +1,7 @@
-# 🚀 Web Dev & SEO Journey | [Tu Nombre]
+# 🚀 Web Dev & SEO Journey | Joshua Sanchez
 
 **Repositorio de proyectos prácticos para dominar React, Next.js, SEO técnico y PostgreSQL/Supabase**  
-*Preparación para la vacante de [Nombre de la Empresa o Rol]*
+*Meta de Diseñador Web Full Seo en 30 Dias
 
 ---
 
@@ -14,17 +14,41 @@
 ---
 
 ## 📂 Estructura del Repositorio
-├── week-1/ # Semana 1: Bases + React
-│ ├── blog-html-css/ # Proyecto HTML/CSS semántico
-│ └── react-portfolio/ # Portfolio con useState/useEffect
-├── week-2/ # Semana 2: React Avanzado + Next.js
-│ ├── ecommerce-nextjs/ # Tienda con Zustand + API routes
-│ └── supabase-todo/ # App con Supabase (CRUD)
-├── week-3/ # Semana 3: SEO + Optimización
-│ ├── seo-landing-page/ # Página con metadata dinámica
-│ └── astro-project/ # Sitio estático con Astro
-├── CHANGELOG.md # Registro de versiones
-└── ROADMAP.md # Detalle de ruta de aprendizaje
+
+```bash
+.
+├── 📁 week-1/                  # Semana 1: Fundamentos + React Básico
+│   ├── 🛠️ blog-html-css/      # Blog estático con HTML semántico y CSS Grid
+│   │   ├── index.html          # Estructura SEO-friendly
+│   │   ├── styles/             # CSS modularizado
+│   │   └── lighthouse-report/  # Auditorías de performance
+│   │
+│   └── ⚛️ react-portfolio/    # Portfolio interactivo
+│       ├── src/components/     # Componentes reutilizables
+│       └── public/             # Assets optimizados (compresión WebP)
+│
+├── 📁 week-2/                  # Semana 2: React Avanzado + Next.js
+│   ├── 🛒 ecommerce-nextjs/    # Tienda fullstack
+│   │   ├── app/                # Next.js App Router
+│   │   ├── lib/zustand/        # Gestión de estado global
+│   │   └── tests/              # Pruebas con Jest
+│   │
+│   └── 📝 supabase-todo/       # CRUD con PostgreSQL
+│       ├── supabase/           # Configuración de client
+│       └── hooks/              # Custom hooks para data fetching
+│
+├── 📁 week-3/                  # Semana 3: SEO Técnico + Rendimiento
+│   ├── 🔍 seo-landing-page/    # Página optimizada
+│   │   ├── next.config.js      # Config Headers/Redirects
+│   │   └── src/utils/          # Schemas (Article, Breadcrumb)
+│   │
+│   └── 🚀 astro-project/       # Alternativa estática
+│       ├── src/pages/          # Rutas estáticas
+│       └── integrations/       # Plugins de SEO
+│
+├── 📜 CHANGELOG.md             # Historial de versiones (Keep a Changelog format)
+├── 🗺️ ROADMAP.md               # Detalle de objetivos técnicos por sprint
+└── 📊 progress-tracker.json    # Métricas automatizadas (Lighthouse, Bundle Size)
 
 
 ---
@@ -42,7 +66,8 @@
 | Semana | Día | Tema | Estado |
 |--------|-----|------|--------|
 | 1 | 📅Día 1 | Estructura HTML semántica fiinalizado 👍 | ✅ - Realizado |
-| 2 | 📅Día 7 | CSS Grid + Responsive | ⏳ - Pendiente |
-| 3 | 📅Día 13 | Zustand (Carrito) | ⏳ - Pendiente |
+| 1 | 📅Día 2 | Semantica HTML Optimizada 👍 | ✅ - Realizado |
+| 2 | 📅Día 7 | Proyecto Pendiente| ⏳ - Pendiente |
+| 3 | 📅Día 13 | Proyecto Pendiente | ⏳ - Pendiente |
 
 ---
