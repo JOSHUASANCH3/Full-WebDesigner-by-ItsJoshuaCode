@@ -5,11 +5,6 @@
 
 # Assets y recursos estáticos
 /web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/images/
-/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/assets/webfonts/
-/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/assets/css/images/
-
-# Archivos CSS específicos
-/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/assets/css/fontawesome-all.min.css
 
 # Todos los archivos minificados
 *.min.css
