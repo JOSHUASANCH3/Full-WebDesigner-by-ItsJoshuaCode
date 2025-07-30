@@ -1,38 +1,15 @@
-# Node.js dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# ======================================
+# Ignora archivos y carpetas comunes 
+# en proyectos de desarrollo web
+# ======================================
 
-# Next.js build output
-.next/
-out/
-dist/
+# Assets y recursos estáticos
+/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/images/
+/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/assets/webfonts/
+/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/assets/css/images/
 
-# Local env files
-.env*
-!.env.example
+# Archivos CSS específicos
+/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/assets/css/fontawesome-all.min.css
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# VSCode settings
-.vscode/
-
-# Logs
-logs/
-*.log
-
-# Coverage directory
-coverage/
-
-# Misc
-*.local
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# Optional: Ignore build cache
-.cache/
+# Todos los archivos minificados
+*.min.css

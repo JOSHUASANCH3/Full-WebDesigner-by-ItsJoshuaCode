@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+	<title>Título del Documento</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<meta name="description" content="Descripción del sitio" />
+	<link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" as="style" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+	<header>
+		<!-- Menu de Navegacion -->
+		<div class="header-menu container">
+			<a href="/" aria-current="page"></a>
+			<img src="images/logo.svg" alt="BurguerPrimos - Las Mejores Hamburguesas" class="logo-1 w-150 h-50"
+				width="150" height="50" />
+
+			<!-- Menú móvil accesible -->
+			<input type="checkbox" id="menu" aria-hidden="true" />
+			<label for="menu" aria-label="Abrir menú de navegación">
+				<img src="images/menu.png" alt="Menu de Navegacion BurguerPrimos" class="menu-icon" />
+			</label>
+
+			<!-- Navegacion Principal -->
+			<nav class="header-navbar" aria-label="Navegacion Principal">
+				<div class="menu-1">
+					<ul class="menu-list">
+						<li class="list-item">
+							<a href="../practica-1/index.html" class="link-page">Inicio</a>
+						</li>
+						<li class="list-item">
+							<a href="/servicios" class="link-page">Servicios</a>
+						</li>
+						<li class="list-item">
+							<a href="/productos" class="link-page">Productos</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Iconos Sociales Accesibles -->
+				<img src="images/logo.svg" alt="Logo del restaurante" class="logo-2" />
+				<div class="menu-2">
+					<ul>
+						<li><a href="#">Horario</a></li>
+					</ul>
+					<div class="socials-icons">
+						<ul class="social-list" role="list">
+							<li class="social-item w-24 h-24">
+								<a href="#" aria-label="Facebook de los BurguerPrimos">
+									<img src="images/s1.svg" alt="Icono de Facebook" />
+								</a>
+							</li>
+							<li class="social-item w-24 h-24">
+								<a href="#" aria-label="Twitter de los BurguerPrimos">
+									<img src="images/s2.svg" alt="Icono de Twitter" />
+								</a>
+							</li>
+							<li class="social-item w-24 h-24">
+								<a href="#" aria-label="Instagram de los BurguerPrimos">
+									<img src="images/s3.svg" alt="Icono de Instagram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Contenido principal Scroll -->
+		<div class="header-content container">
+			<div class="swiper mySwiper-1">
+				<div class="swiper-wrapper">
+
+					<!-- Slider #1 -->
+					<div class="swiper-slide">
+						<div class="slider">
+							<div class="slider-txt">
+								<h1>Hamburguesa #1</h1>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Reprehenderit, fugiat! Nihil, alias omnis quia aperiam
+									delectus est! Saepe alias assumenda voluptates! Quis
+									voluptatum facilis nostrum voluptatem explicabo minus fuga
+									soluta!
+								</p>
+								<div class="buttons">
+									<a href="" class="btn-1">Comprar</a>
+									<a href="" class="btn-1">Menu</a>
+								</div>
+							</div>
+							<div class="slider-img">
+								<img src="images/slider1.png" alt="Imagen de Hamburguesa BurguerPrimos" />
+							</div>
+						</div>
+					</div>
+
+					<!-- Slider #2 -->
+					<div class="swiper-slide">
+						<div class="slider">
+							<div class="slider-txt">
+								<h1>Hamburguesa #2</h1>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Reprehenderit, fugiat! Nihil, alias omnis quia aperiam
+									delectus est! Saepe alias assumenda voluptates! Quis
+									voluptatum facilis nostrum voluptatem explicabo minus fuga
+									soluta!
+								</p>
+								<div class="buttons">
+									<a href="" class="btn-1">Comprar</a>
+									<a href="" class="btn-1">Menu</a>
+								</div>
+							</div>
+							<div class="slider-img">
+								<img src="images/slider2.png" alt="Imagen de Hamburguesa BurguerPrimos" />
+							</div>
+						</div>
+					</div>
+
+					<!-- Slider #3 -->
+					<div class="swiper-slide">
+						<div class="slider">
+							<div class="slider-txt">
+								<h1>Hamburguesa #3</h1>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Reprehenderit, fugiat! Nihil, alias omnis quia aperiam
+									delectus est! Saepe alias assumenda voluptates! Quis
+									voluptatum facilis nostrum voluptatem explicabo minus fuga
+									soluta!
+								</p>
+								<div class="buttons">
+									<a href="" class="btn-1">Comprar</a>
+									<a href="" class="btn-2">Menu</a>
+								</div>
+							</div>
+							<div class="slider-img">
+								<img src="images/slider3.png" alt="Imagen de Hamburguesa BurguerPrimos" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Controles del slider -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</header>
+
+	<main class="products">
+		<div class="tabs-content container">
+			<!-- Nenu de contenido dezplegable de productos #1 -->
+			<input type="radio" name="tabs" id="tab1" checked="checked" class="tabinput" value="1" />
+			<label for="tab1">Hamburguesa</label>
+
+			<div class="tab">
+				<div class="swipper mySwiper-2" id="swiper2">
+					<!-- Contenedor de lista de Productos -->
+					<div class="swiper-wrapper">
+
+						<!-- Producto #1 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food1.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 1</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Producto #2 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food2.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 2</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+						<!-- Producto #3 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food3.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 3</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- buttons de desplazamiento -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+
+			<!-- Nenu de contenido dezplegable de productos #2 -->
+			<input type="radio" name="tabs" id="tab2" checked="checked" class="tabinput" value="2" />
+			<label for="tab2">Burritos</label>
+
+			<div class="tab">
+				<div class="swipper mySwiper-2" id="swiper2">
+					<!-- Contenedor de Productos -->
+					<div class="swiper-wrapper">
+
+						<!-- Producto #4 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food4.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 4</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Producto #5 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food5.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 5</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Producto #6 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food6.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 6</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- buttons de desplazamiento -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+
+			<!-- Nenu de contenido dezplegable de productos -->
+			<input type="radio" name="tabs" id="tab3" checked="checked" class="tabinput" value="3" />
+			<label for="tab3">Variedades</label>
+			<div class="tab">
+				<div class="swipper mySwiper-2" id="swiper2">
+					<!-- Contenedor de Productos -->
+					<div class="swiper-wrapper">
+
+						<!-- Producto #7 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food7.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 7</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Producto #8 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food8.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 8</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Producto #9 -->
+						<div class="swiper-slide">
+							<div class="product">
+								<div class="product-img">
+									<h4>Nuevo</h4>
+									<img src="images/food9.png" alt="Comida" />
+								</div>
+								<div class="product-txt">
+									<h4>Producto 9</h4>
+									<p>Calidad Premiun</p>
+									<span class="price">$80.00</span>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- buttons de desplazamiento -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Seccion de informacion del contenedor (No especifica) -->
+	<section class="info-content container">
+		<div class="info-img">
+			<img src="images/info.png" alt="Info de Productos" />
+		</div>
+
+		<div class="info-txt">
+			<h2>Informacion</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate reiciendis
+				tempore at quo pariatur minus numquam, expedita eaque rem ea doloremque dolores
+				sit corrupti harum vel quasi quaerat dolorem dignissimos.
+			</p>
+			<a href="#" class="btn-2">Mas Informacion</a>
+		</div>
+	</section>
+
+	<!-- Seccion de Horarios (Se puede mejorar) -->
+	<section class="horario">
+		<div class="horario-info container">
+			<h2>Horario</h2>
+			<div class="horario-txt">
+				<div class="txt">
+					<h4>Dirreccion</h4>
+					<p>expedita eaque rem ea doloremque</p>
+					<p>expedita eaque rem ea doloremque</p>
+				</div>
+				<div class="txt">
+					<h4>Horario</h4>
+					<p>Lunes a Viernes : 9 am - 8 pm</p>
+					<p>Sabado y Domingo : 11 am - 7 pm</p>
+				</div>
+				<div class="txt">
+					<h4>Telefono</h4>
+					<p>+(505) 8792-9803</p>
+				</div>
+				<div class="txt">
+					<h4>Redes Sociales</h4>
+					<div class="socials-icons">
+						<ul class="social-list" role="list">
+							<li class="social-item w-24 h-24">
+								<a href="#" aria-label="Facebook de los BurguerPrimos">
+									<img src="images/s1.svg" alt="Icono de Facebook" />
+								</a>
+							</li>
+							<li class="social-item w-24 h-24">
+								<a href="#" aria-label="Twitter de los BurguerPrimos">
+									<img src="images/s2.svg" alt="Icono de Twitter" />
+								</a>
+							</li>
+							<li class="social-item w-24 h-24">
+								<a href="#" aria-label="Instagram de los BurguerPrimos">
+									<img src="images/s3.svg" alt="Icono de Instagram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Mapa de Google -->
+	<section class="mapa-info container">
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240864.08481701676!2d-99.14361265000001!3d19.3907336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2zQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE3DqXhpY28!5e0!3m2!1ses-419!2sni!4v1753742629026!5m2!1ses-419!2sni"
+			width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade">
+		</iframe>
+	</section>
+
+	<footer class="footer-content container">
+		<img src="images/logo.svg" alt="Logo de la Hamburguesa BurguerPrimos" class="logo-2" />
+		<!-- Contenido Footer -->
+		<div class="links">
+			<h4>Lorem</h4>
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+
+		<!-- Contenido Footer -->
+		<div class="links">
+			<h4>Lorem</h4>
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+
+		<!-- Contenido Footer -->
+		<div class="links">
+			<h4>Lorem</h4>
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+
+		<!-- Contenido Footer -->
+		<div class="links">
+			<h4>Lorem</h4>
+			<div class="socials-icons">
+				<ul class="social-list" role="list">
+					<li class="social-item w-24 h-24">
+						<a href="#" aria-label="Facebook de los BurguerPrimos">
+							<img src="images/s1.svg" alt="Icono de Facebook" />
+						</a>
+					</li>
+					<li class="social-item w-24 h-24">
+						<a href="#" aria-label="Twitter de los BurguerPrimos">
+							<img src="images/s2.svg" alt="Icono de Twitter" />
+						</a>
+					</li>
+					<li class="social-item w-24 h-24">
+						<a href="#" aria-label="Instagram de los BurguerPrimos">
+							<img src="images/s3.svg" alt="Icono de Instagram" />
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+
+	<!-- Scripts al final del body -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+	<script src="assets/js/script.js"></script>
+</body>
+
+</html>
