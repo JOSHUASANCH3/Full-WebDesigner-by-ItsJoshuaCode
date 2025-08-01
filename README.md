@@ -1,15 +1,18 @@
-# 🚀 Web Dev & SEO Journey | Joshua Sanchez
+# 🚀 60 Dias para Full Web Designer by @ItsJoshuaCode
 
-**Repositorio de proyectos prácticos para dominar React, Next.js, SEO técnico y PostgreSQL/Supabase**  
-*Meta de Diseñador Web Full Seo en 30 Dias
+---
+
+**Repositorio de Proyectos de Diseños Web**  
+\*Meta de Diseñador Web Full enfocado en el SEO y Optimizacion Web en 30 Dias
 
 ---
 
 ## 📌 Objetivos
-- Dominar **React + Next.js** con herramientas modernas (Zustand, TanStack Query).
-- Implementar **SEO técnico** (puntuación Lighthouse ≥ 90).
-- Gestionar datos con **PostgreSQL/Supabase**.
-- Desplegar proyectos optimizados en **Vercel/Netlify**.
+
+-   Dominar Conceptos Basicos **HTML, CSS y JS**
+-   Implementar **SEO técnico** (puntuación Lighthouse ≥ 90).
+-   De momento
+-   Mejorar el repositorio de este proyecto
 
 ---
 
@@ -18,15 +21,17 @@
 ```bash
 .
 ├── 📁 week-1/                  # Semana 1: Fundamentos + React Básico
-│   ├── 🛠️ blog-html-css/      # Blog estático con HTML semántico y CSS Grid
-│   │   ├── index.html          # Estructura SEO-friendly
+│   ├── 🍔 landing-page-html-css-js/    # Pagina estatica con html, css y js
+│   │   ├── index.html          # Estructura semantica de la pagina
 │   │   ├── styles/             # CSS modularizado
 │   │   ├── config/             # JS con las configuraciones de la pagina
 │   │   └── lighthouse-report/  # Hay que mejorar las imagenes, imagen slider estan erroneas
 │   │
-│   └── ⚛️ react-portfolio/    # Portfolio interactivo
-│       ├── src/components/     # Componentes reutilizables
-│       └── public/             # Assets optimizados (compresión WebP)
+│   └── ☕ cafeteria-html-css-js/    # Landing Page de una Cafeteria
+│       ├── src/                # Paginas Estaticas
+│       ├── styles/             # CSS modularizado
+│       ├── config/             # JS con las configuraciones de la pagina
+│       └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
 │
 ├── 📁 week-2/                  # Semana 2: React Avanzado + Next.js
 │   ├── 🛒 ecommerce-nextjs/    # Tienda fullstack
