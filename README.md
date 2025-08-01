@@ -1,18 +1,15 @@
 # 🚀 Web Dev & SEO Journey | Joshua Sanchez
 
----
-
 **Repositorio de proyectos prácticos para dominar React, Next.js, SEO técnico y PostgreSQL/Supabase**  
-\*Meta de Diseñador Web Full Seo en 30 Dias
+*Meta de Diseñador Web Full Seo en 30 Dias
 
 ---
 
 ## 📌 Objetivos
-
--   Dominar **React + Next.js** con herramientas modernas (Zustand, TanStack Query).
--   Implementar **SEO técnico** (puntuación Lighthouse ≥ 90).
--   Gestionar datos con **PostgreSQL/Supabase**.
--   Desplegar proyectos optimizados en **Vercel/Netlify**.
+- Dominar **React + Next.js** con herramientas modernas (Zustand, TanStack Query).
+- Implementar **SEO técnico** (puntuación Lighthouse ≥ 90).
+- Gestionar datos con **PostgreSQL/Supabase**.
+- Desplegar proyectos optimizados en **Vercel/Netlify**.
 
 ---
 
@@ -20,18 +17,16 @@
 
 ```bash
 .
-├── 📁 week-1/                          # Semana 1: Fundamentos Basicos de HTML, CSS y JS
-│   ├── 🍔 landing-page-html-css-js/    # Pagina estatica con html, css y js
-│   │   ├── index.html          # Estructura semantica de la pagina
+├── 📁 week-1/                  # Semana 1: Fundamentos + React Básico
+│   ├── 🛠️ blog-html-css/      # Blog estático con HTML semántico y CSS Grid
+│   │   ├── index.html          # Estructura SEO-friendly
 │   │   ├── styles/             # CSS modularizado
 │   │   ├── config/             # JS con las configuraciones de la pagina
 │   │   └── lighthouse-report/  # Hay que mejorar las imagenes, imagen slider estan erroneas
 │   │
-│   └── ☕ cafeteria-html-css-js/       # Portfolio interactivo
-│       ├── src/index.html              # Estructura semantica de la pagina
-│       ├── styles/main.css             # CSS modularizado
-│       ├── config/script.js            # JS con las configuraciones de la pagina
-│       └── lighthouse-report/          # Registro de los resultados del rendimiento de la pagina
+│   └── ⚛️ react-portfolio/    # Portfolio interactivo
+│       ├── src/components/     # Componentes reutilizables
+│       └── public/             # Assets optimizados (compresión WebP)
 │
 ├── 📁 week-2/                  # Semana 2: React Avanzado + Next.js
 │   ├── 🛒 ecommerce-nextjs/    # Tienda fullstack
