@@ -7,6 +7,10 @@
 /web-dev-seo-nextjs/week-1/landing-page-html-css-js/images*
 /web-dev-seo-nextjs/week-1/landing-page-html-css-js/images*.{png,jpg,jpeg}
 
+# Assets y recursos estáticos de cafeteria-html-css-js
+/web-dev-seo-nextjs/week-1/cafeteria-html-css-js/images*
+/web-dev-seo-nextjs/week-1/cafeteria-html-css-js/images*.{png,jpg,jpeg}
+
 # Assets y recursos estáticos de blog-html-css-js
 /web-dev-seo-nextjs/week-1/blog-html-css-js/images*
 /web-dev-seo-nextjs/week-1/blog-html-css-js/images*.{png,jpg,jpeg}

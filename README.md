@@ -20,18 +20,18 @@
 
 ```bash
 .
-├── 📁 week-1/                  # Semana 1: Fundamentos + React Básico
-│   ├── 🛠️ landing-page-html-css-js/    # Pagina estatica con html, css y js
+├── 📁 week-1/                          # Semana 1: Fundamentos Basicos de HTML, CSS y JS
+│   ├── 🍔 landing-page-html-css-js/    # Pagina estatica con html, css y js
 │   │   ├── index.html          # Estructura semantica de la pagina
 │   │   ├── styles/             # CSS modularizado
 │   │   ├── config/             # JS con las configuraciones de la pagina
 │   │   └── lighthouse-report/  # Hay que mejorar las imagenes, imagen slider estan erroneas
 │   │
-│   └── ⚛️ blog-html-css-js/    # Portfolio interactivo
-│       ├── index.html          # Estructura semantica de la pagina
-│       ├── styles/             # CSS modularizado
-│       ├── config/             # JS con las configuraciones de la pagina
-│       └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
+│   └── ☕ cafeteria-html-css-js/       # Portfolio interactivo
+│       ├── src/index.html              # Estructura semantica de la pagina
+│       ├── styles/main.css             # CSS modularizado
+│       ├── config/script.js            # JS con las configuraciones de la pagina
+│       └── lighthouse-report/          # Registro de los resultados del rendimiento de la pagina
 │
 ├── 📁 week-2/                  # Semana 2: React Avanzado + Next.js
 │   ├── 🛒 ecommerce-nextjs/    # Tienda fullstack
