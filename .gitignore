@@ -3,8 +3,15 @@
 # en proyectos de desarrollo web
 # ======================================
 
-# Assets y recursos estáticos
-/web-dev-seo-nextjs/week-1/-1-blog-html-css-seo-opt/practica-1/images/
+# Assets y recursos estáticos de restaurante1-html-css-js
+/web-dev-seo-nextjs/week-1/landing-page-html-css-js/images*
+/web-dev-seo-nextjs/week-1/landing-page-html-css-js/images*.{png,jpg,jpeg}
+
+# Assets y recursos estáticos de blog-html-css-js
+/web-dev-seo-nextjs/week-1/blog-html-css-js/images*
+/web-dev-seo-nextjs/week-1/blog-html-css-js/images*.{png,jpg,jpeg}
 
 # Todos los archivos minificados
 *.min.css
+*.png
+*.svg

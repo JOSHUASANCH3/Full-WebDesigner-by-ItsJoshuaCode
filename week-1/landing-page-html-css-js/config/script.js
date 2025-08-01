@@ -1,5 +1,5 @@
-// Inicializando la variable swiper
-var swiper = new Swiper(".mySwiper-1", {
+// Inicializando el slider principal
+const swiper1 = new Swiper(".mySwiper-1", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -8,20 +8,20 @@ var swiper = new Swiper(".mySwiper-1", {
         clickable: true,
     },
     navigation: {
-        nexEl: ".swiper-button-next",
-        nexEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 
-// Inicializando la otra variable
-var swiper = new Swiper(".mySwiper-2", {
+// Inicializando el slider de productos
+const swiper2 = new Swiper(".mySwiper-2", {
     slidesPerView: 3,
     spaceBetween: 20,
     loop: true,
     loopFillGroupWithBlank: true,
     navigation: {
-        nexEl: ".swiper-button-next",
-        nexEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     breakpoints: {
         0: {
@@ -36,14 +36,17 @@ var swiper = new Swiper(".mySwiper-2", {
     },
 });
 
-// Otra config
-let tabInputs = document.querySelectorAll(".tabInput");
-//
+// Actualizar swiper al cambiar de tab
+let tabInputs = document.querySelectorAll(".tabinput");
+
 tabInputs.forEach(function (input) {
-    //
     input.addEventListener("change", function () {
-        let id = input.ariaValueMax;
+        let id = input.value;
         let thisSwiper = document.getElementById("swiper" + id);
         thisSwiper.swiper.update();
     });
 });
+
+// Guardar archivo corregido
+// with open("/mnt/data/script.js", "w", encoding="utf-8") as f:
+//     f.write(js_corregido)
