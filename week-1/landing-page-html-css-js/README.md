@@ -2,7 +2,7 @@
 
 - Lighthouse Score [ 🔺 0 - 49%] [ 🟧 50 - 89%] [ 🟢 90 - 100%]
 
-  - !![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)
+  - ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)
   - ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-88%25-yellow)
   - ![📊_BEST PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)
   - ![📝_SEO](https://img.shields.io/badge/📝_SEO-83%25-yellow)
@@ -45,8 +45,8 @@ Este proyecto fue optimizado siguiendo las buenas prácticas de:
 - CSS (Vanilla)
 - JavaScript (Vanilla)
 - Libreria de CSS #[Libreria de CSS](https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css)
-- Libreria de JS #[Libreria de CSS](https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js)
-- Google Fonts #[Libreria de CSS](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap)
+- Libreria de JS #[Libreria de JS](https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js)
+- Google Fonts #[Libreria de JS](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap)
 - Lighthouse # Herramienta de Google
 
 ---
