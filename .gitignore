@@ -3,12 +3,5 @@
 # en proyectos de desarrollo web
 # ======================================
 
-# Assets y recursos estáticos de restaurante1-html-css-js
-/Full-WebDesigner-by-ItsJoshuaCode/week-1/landing-page-html-css-js/images/*
-/Full-WebDesigner-by-ItsJoshuaCode/week-1/landing-page-html-css-js/images/*.{png,jpg,jpeg,svg}
-
-# Assets y recursos estáticos de cafeteria-html-css-js
-/Full-WebDesigner-by-ItsJoshuaCode/week-1/cafeteria-html-css-js/images/*
-/Full-WebDesigner-by-ItsJoshuaCode/week-1/cafeteria-html-css-js/images/*.{png,jpg,jpeg,svg}
-
-
+# Recursos de imagemen y multimedia
+week-1/**/images/
