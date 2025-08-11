@@ -1,11 +1,8 @@
 # 🚀 60 Dias para Full Web Designer by @ItsJoshuaCode
 
----
-
 **Repositorio de Proyectos de Diseños Web**  
-\*Meta de Diseñador Web Full enfocado en el SEO y Optimizacion Web en 30 Dias
+    \*Meta de Diseñador Web Full enfocado en el SEO y Optimizacion Web en 30 Dias
 
----
 
 ## 📌 Objetivos
 
@@ -14,21 +11,20 @@
 -   De momento
 -   Mejorar el repositorio de este proyecto
 
----
 
 ## 📂 Estructura del Repositorio
 
 ```bash
-.
-├── 📁 week-1/                  # Semana 1: Fundamentos + React Básico
-│   ├── 🍔 landing-page-html-css-js/    # Pagina estatica con html, css y js
+
+├── 📁 week-1/                  # Semana 1: Fundamentos de HTML, CSS y JS
+│   ├── 🍔 landing-page-html-css-js/    # Pagina de una hamburgueseria
 │   │   ├── index.html          # Estructura semantica de la pagina
 │   │   ├── styles/             # CSS modularizado
 │   │   ├── config/             # JS con las configuraciones de la pagina
-│   │   └── lighthouse-report/  # Hay que mejorar las imagenes, imagen slider estan erroneas
+│   │   └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
 │   │
 │   └── ☕ cafeteria-html-css-js/    # Landing Page de una Cafeteria
-│       ├── src/                # Paginas Estaticas
+│       ├── src/                # Estructura semantica de la pagina
 │       ├── styles/             # CSS modularizado
 │       ├── config/             # JS con las configuraciones de la pagina
 │       └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
@@ -56,10 +52,9 @@
 ├── 🗺️ ROADMAP.md               # Detalle de objetivos técnicos por sprint
 └── 📊 progress-tracker.json    # Métricas automatizadas (Lighthouse, Bundle Size)
 
----
 ```
 
----
+
 
 ## 🛠️ Proyectos Clave
 
@@ -67,11 +62,11 @@
 
 | Proyecto                                      | Tecnologías             | Deploy                 | Lighthouse Score [ 🔺 0 - 49%] [ 🟧 50 - 89%] [ 🟢 90 - 100%]  |
 | --------------------------------------------- | ----------------------- | ---------------------- | ----------------- |
-| [Blog SEO](./week-1/restaurante1-html-css-js/README.md)   | HTML, CSS, JS | [Vercel](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-88%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-83%25-yellow)    |
-| [E-commerce Next.js](week-2/ecommerce-nextjs) | React, Zustand, Next.js | [Vercel](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)    |
-| [Landing Page SEO](week-3/seo-landing-page)   | Next.js, TanStack Query | [Netlify](none) | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
+| [🍔 landing-page-html-css-js](./week-1/landing-page-html-css-js/README.md)   | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-88%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-83%25-yellow)    |
+| [☕ cafeteria-html-css-js](./week-1/cafeteria-html-css-js/README.md) | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-85%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-100%25-green)    |
+| [Proyecto en Espera](none)   | Pendiente | [Pendiente](none) | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
 
----
+
 
 ## 📅 Progreso
 
@@ -84,3 +79,5 @@
 |    1   | 📅Día 5  | Se termio el CSS y JS.                   | ✅ - Realizado |
 |    1   | 📅Día 6  | Proyecto Landing Page de la Semana 1 Terminado    | ✅ - Realizado |
 |    1   | 📅Día 7  | Progreso del Dia                       | ⏳ - Pendiente |
+|    2   | 📅Día 8  | Progreso del Dia                       | ⏳ - Pendiente |
+|    2   | 📅Día 9  | Progreso del Dia                       | ⏳ - Pendiente |
