@@ -3,5 +3,8 @@
 # en proyectos de desarrollo web
 # ======================================
 
-# Recursos de imagemen y multimedia
+# Omitir Recursos de la Semana 1 del proyecto
 week-1/**/images/
+
+# Omitir Recursos de la Semana 2 del proyecto
+week-2/**/images/

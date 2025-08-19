@@ -30,10 +30,34 @@
 │       └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
 │
 ├── 📁 week-2/                  # Semana 2: React Avanzado + Next.js
-│   ├── 🛒 ecommerce-nextjs/    # Tienda fullstack
-│   │   ├── app/                # Next.js App Router
-│   │   ├── lib/zustand/        # Gestión de estado global
-│   │   └── tests/              # Pruebas con Jest
+│   ├── 🛒 ecommerce1-html-css-js/    # Tienda fullstack
+│	├── /assets
+│   │	│   ├── /css
+│   │	│   │   └── styles.css
+│   │	│   ├── /js
+│   │	│   │   └── main.js
+│   │	│   ├── /img
+│   │	│   │   └── logo.png
+│   │	│   ├── /fonts
+│   │	│   └── /vendor        # Librerías externas como Bootstrap, Swiper, etc.
+│	├── /pages
+│	│   ├── accounts.html
+│	│   ├── cart.html
+│	│   ├── checkout.html
+│	│   ├── compare.html
+│	│   ├── details.html
+│	│   ├── login-register.html
+│	│   ├── shop.html
+│	│   └── index.html     # También lo puedes dejar en la raíz si prefieres
+│   │
+│	├── /partials
+│	│   ├── header.html
+│	│   ├── footer.html
+│	│   ├── navbar.html
+│	│   └── sidebar.html
+│	│
+│	├── /data
+│	│   └── products.json  # Si manejas datos en JSON
 │   │
 │   └── 📝 supabase-todo/       # CRUD con PostgreSQL
 │       ├── supabase/           # Configuración de client
@@ -64,6 +88,7 @@
 | --------------------------------------------- | ----------------------- | ---------------------- | ----------------- |
 | [🍔 landing-page-html-css-js](./week-1/landing-page-html-css-js/README.md)   | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-88%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-83%25-yellow)    |
 | [☕ cafeteria-html-css-js](./week-1/cafeteria-html-css-js/README.md) | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-85%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-100%25-green)    |
+| [Ecommerce #1](none)   | Pendiente | [Pendiente](none) | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
 | [Proyecto en Espera](none)   | Pendiente | [Pendiente](none) | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
 
 
