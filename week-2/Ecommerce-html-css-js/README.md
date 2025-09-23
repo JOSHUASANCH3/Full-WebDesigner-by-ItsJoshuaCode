@@ -28,6 +28,7 @@ Este proyecto fue optimizado siguiendo las buenas prácticas de:
 - Dia 10 se creo el proyecto
 - Dia 11 se trabajo el archivo index.html y desarrollo el header. Se realizo su estilo CSS
 - Dia 12 se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
+- Dia 13 se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
 
 
 
