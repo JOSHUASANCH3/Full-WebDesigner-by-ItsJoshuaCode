@@ -11,8 +11,8 @@
 
 ## 🧾 Descripción
 
-- **Cafeteria Express** es una landing page moderna para una hamburguesería ficticia, desarrollada con HTML, CSS y JavaScript.  
-  - Esta pagina principal posee una estructura semantica en el HTML :
+- **Tienda Eccommerce de Ropa** es una landing page moderna para una hamburguesería ficticia, desarrollada con HTML, CSS y JavaScript.  
+  - Esta pagina principal posee una estructura semantica en el HTML
     
 
 Este proyecto fue optimizado siguiendo las buenas prácticas de:
@@ -25,7 +25,8 @@ Este proyecto fue optimizado siguiendo las buenas prácticas de:
 
 ## 📸 Notas
 
-- Se puede mejorar la semantica del HMTL
+- Dia 10 se creo el proyecto
+- Dia 11 se trabajo el archivo index.html y desarrollo el header. Se realizo su estilo CSS
 
 
 

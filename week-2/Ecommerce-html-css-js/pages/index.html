@@ -1,25 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
+  <!-- Page Title -->
+  <title>Ecommerce Website</title>
+
+  <!-- Meta Keywords and Description -->
+  <meta name="keywords" content="">
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!--=============== FLATICON ===============-->
-  <link rel="stylesheet" href="" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" />
 
-  <!--=============== SWIPER CSS ===============-->
-  <link rel="stylesheet" href="" />
+  <!-- Main CSS Files -->
+  <link rel="stylesheet" href="../assets/css/main.css" />
 
-  <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="" />
-
-  <title>Ecommerce Website</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
   <!--=============== HEADER ===============-->
-  <header class="header"></header>
+  <header class="header">
+    <!-- Header Top -->
+    <div class="header__top">
+      <div class="header__container container">
+        <div class="header__contact">
+          <span>(+505) 82739293</span>
+          <span>Our Location</span>
+        </div>
+        <p class="header__alert-news">
+          Super Value Deals - Save more with coupons
+        </p>
+        <a href="login-register.html" class="header__top-action">Log in / Sign Up</a>
+      </div>
+    </div>
+
+    <!-- Header Nav -->
+    <nav class="header__nav container">
+      <a href="index.html" class="nav__logo">
+        <img src="../assets/images/logo.svg" alt="Logo del Ecommerce" class="nav__logo-img">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <!-- Home Page -->
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <!-- Shop Page -->
+          <li class="nav__item">
+            <a href="shop.html" class="nav__link">Shop</a>
+          </li>
+          <!-- Page Account -->
+          <li class="nav__item">
+            <a href="accounts.html" class="nav__link">My Account</a>
+          </li>
+          <!-- Compare Page -->
+          <li class="nav__item">
+            <a href="compare.html" class="nav__link">Compare</a>
+          </li>
+          <!-- Login Page -->
+          <li class="nav__item">
+            <a href="login-register.html" class="nav__link">Login</a>
+          </li>
+        </ul>
+
+        <div class="header__search">
+          <input type="text" placeholder="Search for items..." class="form__input">
+          <button class="search__btn">
+            <img src="../assets/images/company-images/search.png" alt="Icono de imagen de busqueda">
+          </button>
+        </div>
+      </div>
+
+      <div class="header__user-actions">
+        <!-- Icon de Corazon -->
+        <a href="wishlist.html" class="header__action-btn">
+          <img src="../assets/images/company-images/icon-heart.svg" alt="Icono de corazon">
+          <span class="count">3</span>
+        </a>
+
+        <!-- Icon de Compra -->
+        <a href="cart.html" class="header__action-btn">
+          <img src="../assets/images/company-images/icon-cart.svg" alt="Icono de carrito de compras">
+          <span class="count">3</span>
+        </a>
+      </div>
+
+    </nav>
+  </header>
 
   <!--=============== MAIN ===============-->
   <main class="main">
