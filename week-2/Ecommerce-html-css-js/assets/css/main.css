@@ -271,13 +271,131 @@ input {
 
 /* Active link */
 
+.active-link,
+.nav__link:hover {
+    color: var(--first-color);
+}
+
 /*=============== HOME ===============*/
+
+.home__container {
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+}
+
+.home__subtitle,
+.home__description {
+    font-size: var(--large-font-size);
+}
+
+.home__subtitle {
+    font-family: var(--second-color);
+    font-weight: var(--weight-500);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.home__title {
+    font-size: var(--h1-font-size);
+    font-weight: var(--weight-700);
+    line-height: 1.4;
+}
+
+.home__title span {
+    color: var(--first-color);
+    font-size: var(--big-font-size);
+}
+
+.home__description {
+    margin-block: 0.5rem 2rem;
+}
+
+.home__img {
+    justify-self: flex-end;
+}
 
 /*=============== BUTTONS ===============*/
 
+.btn {
+    display: inline-block;
+    background-color: var(--first-color);
+    border: 2px solid var(--first-color);
+    color: var(--body-color);
+    padding-inline: 1.75rem;
+    height: 49px;
+    line-height: 49px;
+    border-radius: 0.25rem;
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-700);
+    transition: all 0.4s var(--transition);
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--first-color);
+}
+
 /*=============== CATEGORIES ===============*/
 
+.categories {
+    overflow: hidden;
+}
+
+.category__item {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    padding: 0.625rem 0.625rem 1.25rem;
+    border-radius: 1.25rem;
+    background: var(--body-color);
+    box-sizing: border-box; /* 🔑 asegura que padding no rompa el ancho */
+    overflow: hidden; /* 🔑 evita que la imagen se salga */
+}
+
+.category__img {
+    width: 100%; /* que no exceda la card */
+    height: auto; /* mantiene proporción */
+    border-radius: 0.75rem;
+    margin-bottom: 1.25rem;
+    display: block; /* quita posibles espacios fantasmas */
+    object-fit: cover; /* si quieres que se recorte en lugar de deformarse */
+}
+
+.category__title {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+}
+
 /* Swiper class */
+.swiper {
+    overflow: initial !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "" !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: -1.875rem !important;
+    background-color: var(--first-color-alt) !important;
+    border: 1px solid var(--border-color) !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    color: var(--first-color) !important;
+    font-size: var(--tiny-font-size) !important;
+}
+
+.swiper-button-prev {
+    left: initial !important;
+    right: 2.5rem !important;
+}
+
+.swiper-button-next {
+    right: 0 !important;
+}
 
 /*=============== PRODUCTS ===============*/
 
