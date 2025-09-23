@@ -398,8 +398,42 @@ input {
 }
 
 /*=============== PRODUCTS ===============*/
+.tab__btns {
+    display: flex;
+    column-gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.tab_btn {
+    background-color: var(--container-color);
+    color: var(--title-color);
+    padding: 1rem 1.25rem 0.875rem;
+    border-radius: 0.25rem;
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-600);
+    cursor: pointer;
+}
+
+.products__container {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product__item {
+    border: 1px solid var(--border-color);
+    border-radius: 1.5rem;
+}
 
 /* Active Tab */
+
+.tab_btn .active-tab {
+    color: var(--first-color);
+    background-color: var(--second-color);
+}
+
+.tab__item:not(.active-tab) {
+    display: none;
+}
 
 /* Product Hover */
 
