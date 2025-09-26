@@ -441,7 +441,8 @@ input {
     border: 1px solid var(--border-color);
     border-radius: 1.5rem;
     overflow: hidden; /* 🔑 evita que la imagen se salga */
-    transition: all 0.2s var(--transition);
+    background: var(--body-color);
+    transition: box-shadow 0.3s ease;
 }
 
 .product__banner {
@@ -454,16 +455,19 @@ input {
 }
 
 .product__images {
-    display: block; /* quita posibles espacios fantasmas */
-    width: 100%; /* que no exceda la card */
-    height: auto; /* mantiene proporción */
-    object-fit: cover; /* si quieres que se recorte en lugar de deformarse */
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1; /* cuadrado; cambia a 4/5 si quieres vertical */
     overflow: hidden;
+    border-radius: 1.25rem 1.25rem 0 0; /* sigue el borde redondeado */
+    position: relative;
 }
 
 .product__img {
-    vertical-align: middle;
-    transition: all 1.5s var(--transition);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* que recorte en lugar de deformarse */
+    transition: transform 1.5s var(--transition);
 }
 
 .product__item:hover .product__img {
@@ -474,16 +478,42 @@ input {
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0;
 }
 
 .product__actions {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
-    column-gap: 0.5rem;
-    transition: all 0.2s var(--transition);
+    flex-direction: column; /* botones en columna */
+    position: absolute;
+    top: 0; /* centrado vertical */
+    right: -3rem; /* se sale un poquito hacia la derecha */
+    transform: translateY(10%);
+    z-index: 2; /* 🔑 que queden por encima */
+    gap: 1rem;
+    transition: all 0.4s ease;
+}
+/* Hover sobre el producto: aparecen */
+.product__item:hover .product__actions {
+    right: 1rem; /* se animan a entrar desde afuera */
+}
+
+.product__actions span {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: var(--border-color);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.product__actions span:hover {
+    background-color: var(--first-color);
+    color: var(--body-color);
+    transform: scale(1.1);
 }
 
 .action__btn {
@@ -606,7 +636,7 @@ input {
 }
 
 .product__item:hover {
-    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+    box-shadow: 0 6px 20px hsla(0, 0%, 0%, 0.15);
 }
 
 .product__item:hover .product__img.hover,

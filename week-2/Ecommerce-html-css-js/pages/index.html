@@ -14,11 +14,11 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="../assets/images/favicon.ico" />
 
-  <!-- Main CSS Files -->
-  <link rel="stylesheet" href="../assets/css/main.css" />
-
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Main CSS Files -->
+  <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 
 <body>
@@ -174,14 +174,14 @@
     <!--=============== PRODUCTS ===============-->
     <section class="products section container">
       <div class="tab__btns">
-        <span class="tab__btn active__tab">Featured</span>
-        <span class="tab__btn">Popular</span>
-        <span class="tab__btn">New Added</span>
+        <span class="tab__btn active__tab" data-target="#featured">Featured</span>
+        <span class="tab__btn" data-target="#popular">Popular</span>
+        <span class="tab__btn" data-target="#new-added">New Added</span>
       </div>
 
       <div class="tab__items">
 
-        <div class="tab__item active__tab">
+        <div class="tab__item active__tab" data-content id="featured">
           <div class="products__container grid">
             <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-PINK -->
             <div class="product__item">
@@ -572,16 +572,16 @@
           </div>
         </div>
 
-        <div class="tab__item">
+        <div class="tab__item" data-content id="popular">
           <div class="products__container grid">
             <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-PINK -->
             <div class="product__item">
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-1-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-9-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-1-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-9-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -627,9 +627,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-2-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-10-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-2-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-10-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -675,9 +675,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-3-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-11-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-3-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-11-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -723,9 +723,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-4-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-1-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-4-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-12-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -771,9 +771,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-5-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-13-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-5-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-13-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -963,16 +963,16 @@
           </div>
         </div>
 
-        <div class="tab__item">
+        <div class="tab__item" data-content id="new-added">
           <div class="products__container grid">
             <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-PINK -->
             <div class="product__item">
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-1-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-9-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-1-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-9-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -1018,9 +1018,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-2-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-10-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-2-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-10-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -1066,9 +1066,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-3-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-11-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-3-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-11-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -1114,9 +1114,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-4-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-12-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-4-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-12-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -1162,9 +1162,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-5-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-7-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-5-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-7-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -1210,9 +1210,9 @@
               <div class="product__banner">
                 <!-- Imagen del producto -->
                 <a href="details.html" class="product__images">
-                  <img src="../assets/images/gallery-images/product-6-1.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-8-1.jpg" alt="Producto Numero 1"
                     class="product__img default">
-                  <img src="../assets/images/gallery-images/product-6-2.jpg" alt="Producto Numero 1"
+                  <img src="../assets/images/gallery-images/product-8-2.jpg" alt="Producto Numero 1"
                     class="product__img hover">
                 </a>
 
@@ -1357,6 +1357,15 @@
       </div>
 
     </section>
+
+    <!--=============== DEALS ===============-->
+    <section class="deals"></section>
+
+    <!--=============== NEW ARRIVALS ===============-->
+    <section class="new__arrivals"></section>
+
+    <!--=============== SHOWCASE ===============-->
+    <section class="showcase"></section>
 
     <!--=============== NEWSLETTER ===============-->
     <section class="newsletter"></section>
