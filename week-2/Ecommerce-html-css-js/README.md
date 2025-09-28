@@ -21,6 +21,17 @@ Este proyecto fue optimizado siguiendo las buenas prácticas de:
 - JS CONFIG  <!-- Aun no esta desarrollado  -->
 
 
+<!-- 
+git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
+-m "📦 feat: Nueva funcionalidad." \
+-m "🛠️ fix: Corrección de bugs." \
+-m "✨ style: Cambios en CSS/UI." \
+-m "📝 docs : Actualización de documentación." \
+-m "🔧 refactor : Mejoras de código sin cambiar funcionalidad." \
+-m "🚀 perf: Optimizaciones de rendimiento.." 
+-->
+
+
 
 
 ## 📸 Notas
