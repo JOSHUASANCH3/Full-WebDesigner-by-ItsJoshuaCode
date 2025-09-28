@@ -765,6 +765,10 @@ input {
 
 /*=============== NEW ARRIVALS ===============*/
 
+.new__arrivals {
+    overflow: hidden;
+}
+
 /*=============== SHOWCASE ===============*/
 
 /*=============== NEWSLETTER ===============*/
