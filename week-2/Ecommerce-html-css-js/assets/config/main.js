@@ -38,7 +38,7 @@ const swiperCategories = new Swiper(".categories__container", {
 });
 
 /*=============== SWIPER PRODUCTS ===============*/
-const swiperProducts = new Swiper(".container__new-arrivals", {
+const swiperProducts = new Swiper(".new-arrivals__container", {
     spaceBetween: 24,
     loop: true,
     // Parameters Navigations
