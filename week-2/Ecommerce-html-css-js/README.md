@@ -36,13 +36,15 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 
 ## 📸 Notas
 
-- Dia 10 se creo el proyecto
-- Dia 11 se trabajo el archivo index.html y desarrollo el header. Se realizo su estilo CSS
-- Dia 12 se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
-- Dia 12 se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
-- Dia 13 se termino la seccion products con sus html y css
-- Dia 13 se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
-- Dia 13 se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
+- Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
+- Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
+- Dia 13: se termino la seccion products con sus html y css
+- Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
+- Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
+- Dia 14: Se termino la seccion de products y correcion de diseño.
+-  Dia 15: Completado la seccion de Deals.
+-  Dia 15: Completado la seccion de new Arrivals.
+-  Dia 15: Se creo una seccion #showcase.
 
 
 
