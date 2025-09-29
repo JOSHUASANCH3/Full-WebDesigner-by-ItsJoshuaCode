@@ -28,7 +28,7 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 -m "✨ style: Cambios en CSS/UI." \
 -m "📝 docs : Actualización de documentación." \
 -m "🔧 refactor : Mejoras de código sin cambiar funcionalidad." \
--m "🚀 perf: Optimizaciones de rendimiento.." 
+-m "🚀 perf: Optimizaciones de rendimiento." 
 -->
 
 
@@ -45,6 +45,8 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 -  Dia 15: Completado la seccion de Deals.
 -  Dia 15: Completado la seccion de new Arrivals.
 -  Dia 15: Se creo una seccion #showcase.
+-  Dia 16: Se completo la seccion showcase
+-  Dia 16: Se termino la seccion de newsletter
 
 
 
