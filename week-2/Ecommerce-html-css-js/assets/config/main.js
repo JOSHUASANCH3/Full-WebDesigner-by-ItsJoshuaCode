@@ -85,3 +85,11 @@ tabs.forEach((tab) => {
         tab.classList.add("active__tab");
     });
 });
+
+/*=============== FOOTER PARTIALS ===============*/
+// Cargar el partial del footer
+fetch("../partials/footer.html")
+    .then((res) => res.text())
+    .then((data) => {
+        document.getElementById("footer").innerHTML = data;
+    });
