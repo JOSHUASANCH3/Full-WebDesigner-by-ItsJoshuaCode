@@ -84,12 +84,12 @@
 
 
 
-| Proyecto                                      | Tecnologías             | Deploy                 | Lighthouse Score [ 🔺 0 - 49%] [ 🟧 50 - 89%] [ 🟢 90 - 100%]  |
+| Proyecto                                      | Tecnologías             | Deploy                 | Lighthouse Score [ 🔴 0 - 49%] [ 🟡 50 - 89%] [ 🟢 90 - 100%]  |
 | --------------------------------------------- | ----------------------- | ---------------------- | ----------------- |
-| [🍔 landing-page-html-css-js](./week-1/landing-page-html-css-js/README.md)   | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-88%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-83%25-yellow)    |
-| [☕ cafeteria-html-css-js](./week-1/cafeteria-html-css-js/README.md) | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-85%25-yellow)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-100%25-green)    |
-| [Ecommerce #1](none)   | Pendiente | [Pendiente](none) | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
-| [Proyecto en Espera](none)   | Pendiente | [Pendiente](none) | ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-0%25-grey)  ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-0%25-grey)   ![📊_BEST_PRACTICES](https://img.shields.io/badge/📊_BEST_PRACTICES-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
+| [🍔 landing-page-html-css-js](/week-1/landing-page-html-css-js/README.md)   | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-50%25-red)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-88%25-yellow)   ![📊_BP](https://img.shields.io/badge/📊_BP-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-83%25-yellow)    |
+| [☕ cafeteria-html-css-js](/week-1/cafeteria-html-css-js/README.md) | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-50%25-red)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-85%25-yellow)   ![📊_BP](https://img.shields.io/badge/📊_BP-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-100%25-green)    |
+| [Ecommerce #1](/week-2/Ecommerce-html-css-js/README.md)   | Pendiente | [Pendiente](none) | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-25%25-red)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-76%25-yellow)   ![📊_BP](https://img.shields.io/badge/📊_BP-80%25-yellow)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-80%25-yellow)  |
+| [Proyecto en Espera](none)   | Pendiente | [Pendiente](none) | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-0%25-grey)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-0%25-grey)   ![📊_BP](https://img.shields.io/badge/📊_BP-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
 
 
 
@@ -103,6 +103,29 @@
 |    1   | 📅Día 4  | HTML realizado                           | ✅ - Realizado |
 |    1   | 📅Día 5  | Se termio el CSS y JS.                   | ✅ - Realizado |
 |    1   | 📅Día 6  | Proyecto Landing Page de la Semana 1 Terminado    | ✅ - Realizado |
-|    1   | 📅Día 7  | Progreso del Dia                       | ⏳ - Pendiente |
-|    2   | 📅Día 8  | Progreso del Dia                       | ⏳ - Pendiente |
-|    2   | 📅Día 9  | Progreso del Dia                       | ⏳ - Pendiente |
+|    1   | 📅Día 7  | Completado HTML y CSS de week-1/cafeteria| ✅ - Realizado |
+|    2   | 📅Día 8  | Correciones HTML y CSS de week-1/cafeteria| ✅ - Realizado |
+|    2   | 📅Día 9  | Actualizacion del Readme de week-1/cafeteria| ✅ - Realizado |
+|    2   | 📅Día 10 | Se inicio nuevo proyecto week-2/Ecommerce-html-css-js| ✅ - Realizado |
+|    2   | 📅Día 11 | Se completo Header, Home, Categories | ✅ - Realizado |
+|    2   | 📅Día 12 | Se completo Swiper y Botones | ✅ - Realizado |
+|    2   | 📅Día 13 | Se agrego la seccion de Products | ✅ - Realizado |
+|    2   | 📅Día 14 | Terminada la seccion de Products | ✅ - Realizado |
+|    2   | 📅Día 15 | Se completo la seccion de Deals, Arrivals | ✅ - Realizado |
+|    2   | 📅Día 16 | Se completo la seccion showcase y se agrego la seccion de footer | ✅ - Realizado |
+|    2   | 📅Día 17 | Se termino la seccion de footer y completado el index | ✅ - Realizado |
+|    2   | 📅Día 18 | Sin informacion | ⏳ - Pendiente |
+
+
+Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
+  - Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
+  - Dia 13: se termino la seccion products con sus html y css
+  - Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
+  - Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
+  - Dia 14: Se termino la seccion de products y correcion de diseño.
+  - Dia 15: Completado la seccion de Deals.
+  - Dia 15: Completado la seccion de new Arrivals.
+  - Dia 15: Se creo una seccion #showcase.
+  - Dia 16: Se completo la seccion showcase
+  - Dia 16: Se agrego la seccion footer
+  - Dia 17: Se completo la seccion partials/footer con HTML, CSS y JS para su funcionamiento
