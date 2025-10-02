@@ -35,6 +35,25 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 -->
 
 
+<!-- 
+# Tag específico para cada version del proyecto
+git tag -a "week-2/ecommerce/index-v1.0.0" -m "Se completo la pagina Index." \
+-m "Componentes Implementados:" \
+-m "✅ Pagina Principal (index.html)" \
+-m "✅ Pagina Parcial del Footer al index (partials/footer.html)" \
+-m "✅ Implementacion del CSS para el diseño y responsividad" \
+-m "✅ Configuracion del JavaScript" \
+-m " " \
+-m "Archivos Incluidos:" \
+-m " - pages/index.html" \
+-m " - pages/partials/footer.html" \
+-m " - assets/css/main.css" \
+-m " - assets/config/main.js" \
+-m " - README.md" \
+-m " " \
+-m " Project path: week-2/Ecommerce-html-css-js" \
+-->
+
 
 
 ## 📸 Notas
