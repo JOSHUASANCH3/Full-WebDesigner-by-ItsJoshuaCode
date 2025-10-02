@@ -91,9 +91,14 @@ git tag -a "week-2/ecommerce/index-v1.0.0" -m "Se completo la pagina Index." \
 │   ├── /js
 │   │   └── main.js
 │   ├── /img
-│   │   └── logo.png   # Aqui se ocupan las librerias de imagen pero estan no se subiran como tal solo icono con blue-ray
-│   ├── /fonts         # No se ocupan librerias locales de momento solo las de google fonts
-│   └── /vendor        # Librerías externas como Bootstrap, Swiper, etc.
+│   │   └── logo.png
+│   └── /vendor    # Librerías externas como Bootstrap, Swiper, etc.
+│
+├── /partials      # Ubicación de parciales a nivel de raíz
+│   ├── header.html
+│   ├── footer.html
+│   ├── navbar.html
+│   └── sidebar.html
 │
 ├── /pages
 │   ├── accounts.html
@@ -102,18 +107,12 @@ git tag -a "week-2/ecommerce/index-v1.0.0" -m "Se completo la pagina Index." \
 │   ├── compare.html
 │   ├── details.html
 │   ├── login-register.html
-│   ├── shop.html
-│   └── index.html     # También lo puedes dejar en la raíz si prefieres
-│
-├── /partials
-│   ├── header.html
-│   ├── footer.html
-│   ├── navbar.html
-│   └── sidebar.html
+│   └── shop.html
 │
 ├── /data
-│   └── products.json  # Si manejas datos en JSON
+│   └── products.json
 │
+├── index.html     # El archivo principal en la raíz
 └── README.md
 
 ```

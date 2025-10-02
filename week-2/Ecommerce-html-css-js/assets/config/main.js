@@ -88,7 +88,7 @@ tabs.forEach((tab) => {
 
 /*=============== FOOTER PARTIALS ===============*/
 // Script para cargar el partials/footer al index
-fetch("../partials/footer.html")
+fetch("/week-2/Ecommerce-html-css-js/partials/footer.html")
     .then((res) => res.text())
     .then((data) => {
         document.getElementById("footer__partials").innerHTML = data;
