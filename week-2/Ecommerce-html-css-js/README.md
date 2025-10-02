@@ -1,6 +1,6 @@
 # ☕ Tienda de Ropa - Ecommerce
 
-- Lighthouse Score [ 🔺 0 - 49%] [ 🟧 50 - 89%] [ 🟢 90 - 100%]
+- Lighthouse Score [ 🔴 0 - 49%] [ 🟡 50 - 89%] [ 🟢 90 - 100%]
 
   - ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)
   - ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-85%25-yellow)
@@ -51,7 +51,7 @@ git tag -a "week-2/ecommerce/index-v1.0.0" -m "Se completo la pagina Index." \
 -m " - assets/config/main.js" \
 -m " - README.md" \
 -m " " \
--m " Project path: week-2/Ecommerce-html-css-js" \
+-m " Ubicacion: week-2/Ecommerce-html-css-js" \
 -->
 
 
