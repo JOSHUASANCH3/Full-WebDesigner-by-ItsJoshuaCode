@@ -1,4 +1,4 @@
-# ☕ CaferiaNatalia - Página Web de Cafeteria
+# ☕ Tienda de Ropa - Ecommerce
 
 - Lighthouse Score [ 🔺 0 - 49%] [ 🟧 50 - 89%] [ 🟢 90 - 100%]
 
@@ -11,8 +11,9 @@
 
 ## 🧾 Descripción
 
-- **Tienda Eccommerce de Ropa** es una landing page moderna para una hamburguesería ficticia, desarrollada con HTML, CSS y JavaScript.  
+- **Tienda Eccommerce de Ropa** es una pagina Ecommerce solo el front-end, desarrollada con HTML, CSS y JavaScript.  
   - Esta pagina principal posee una estructura semantica en el HTML
+  - Se usara como base para las siguientes buenas practicas de desarrollo
     
 
 Este proyecto fue optimizado siguiendo las buenas prácticas de:
@@ -21,6 +22,8 @@ Este proyecto fue optimizado siguiendo las buenas prácticas de:
 - JS CONFIG  <!-- Aun no esta desarrollado  -->
 
 
+
+<!-- Es el listado de commits para su registro de desarrollo -->
 <!-- 
 git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 -m "📦 feat: Nueva funcionalidad." \
@@ -35,24 +38,25 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 
 
 ## 📸 Notas
-
-- Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
-- Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
-- Dia 13: se termino la seccion products con sus html y css
-- Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
-- Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
-- Dia 14: Se termino la seccion de products y correcion de diseño.
--  Dia 15: Completado la seccion de Deals.
--  Dia 15: Completado la seccion de new Arrivals.
--  Dia 15: Se creo una seccion #showcase.
--  Dia 16: Se completo la seccion showcase
--  Dia 16: Se termino la seccion de newsletter
+- **Desarrollo de pagina index.html segun los dias tomados** 
+  - Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
+  - Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
+  - Dia 13: se termino la seccion products con sus html y css
+  - Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
+  - Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
+  - Dia 14: Se termino la seccion de products y correcion de diseño.
+  - Dia 15: Completado la seccion de Deals.
+  - Dia 15: Completado la seccion de new Arrivals.
+  - Dia 15: Se creo una seccion #showcase.
+  - Dia 16: Se completo la seccion showcase
+  - Dia 16: Se agrego la seccion footer
+  - Dia 17: Se completo la seccion partials/footer con HTML, CSS y JS para su funcionamiento
 
 
 
 ## 🚀 Tecnologías utilizadas
 
-- En proceso con la documentacion
+- Sin documentacion
 
 
 
@@ -68,8 +72,8 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 │   ├── /js
 │   │   └── main.js
 │   ├── /img
-│   │   └── logo.png
-│   ├── /fonts
+│   │   └── logo.png   # Aqui se ocupan las librerias de imagen pero estan no se subiran como tal solo icono con blue-ray
+│   ├── /fonts         # No se ocupan librerias locales de momento solo las de google fonts
 │   └── /vendor        # Librerías externas como Bootstrap, Swiper, etc.
 │
 ├── /pages
