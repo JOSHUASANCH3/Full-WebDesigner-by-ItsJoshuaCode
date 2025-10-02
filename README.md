@@ -18,63 +18,20 @@
 
 ├── 📁 week-1/                  # Semana 1: Fundamentos de HTML, CSS y JS
 │   ├── 🍔 landing-page-html-css-js/    # Pagina de una hamburgueseria
-│   │   ├── index.html          # Estructura semantica de la pagina
-│   │   ├── styles/             # CSS modularizado
-│   │   ├── config/             # JS con las configuraciones de la pagina
-│   │   └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
-│   │
 │   └── ☕ cafeteria-html-css-js/    # Landing Page de una Cafeteria
-│       ├── src/                # Estructura semantica de la pagina
-│       ├── styles/             # CSS modularizado
-│       ├── config/             # JS con las configuraciones de la pagina
-│       └── lighthouse-report/  # Registro de los resultados del rendimiento de la pagina
 │
 ├── 📁 week-2/                  # Semana 2: React Avanzado + Next.js
-│   ├── 🛒 ecommerce1-html-css-js/    # Tienda fullstack
-│	├── /assets
-│   │	│   ├── /css
-│   │	│   │   └── styles.css
-│   │	│   ├── /js
-│   │	│   │   └── main.js
-│   │	│   ├── /img
-│   │	│   │   └── logo.png
-│   │	│   ├── /fonts
-│   │	│   └── /vendor        # Librerías externas como Bootstrap, Swiper, etc.
-│	├── /pages
-│	│   ├── accounts.html
-│	│   ├── cart.html
-│	│   ├── checkout.html
-│	│   ├── compare.html
-│	│   ├── details.html
-│	│   ├── login-register.html
-│	│   ├── shop.html
-│	│   └── index.html     # También lo puedes dejar en la raíz si prefieres
-│   │
-│	├── /partials
-│	│   ├── header.html
-│	│   ├── footer.html
-│	│   ├── navbar.html
-│	│   └── sidebar.html
-│	│
-│	├── /data
-│	│   └── products.json  # Si manejas datos en JSON
-│   │
-│   └── 📝 supabase-todo/       # CRUD con PostgreSQL
-│       ├── supabase/           # Configuración de client
-│       └── hooks/              # Custom hooks para data fetching
+│   ├── 🛒 ecommerce1-html-css-js/    
+│   └── 🛒 en espera/    
+│
 │
 ├── 📁 week-3/                  # Semana 3: SEO Técnico + Rendimiento
-│   ├── 🔍 seo-landing-page/    # Página optimizada
-│   │   ├── next.config.js      # Config Headers/Redirects
-│   │   └── src/utils/          # Schemas (Article, Breadcrumb)
-│   │
+│   ├── 🔍 seo-landing-page/    
 │   └── 🚀 astro-project/       # Alternativa estática
-│       ├── src/pages/          # Rutas estáticas
-│       └── integrations/       # Plugins de SEO
 │
 ├── 📜 CHANGELOG.md             # Historial de versiones (Keep a Changelog format)
-├── 🗺️ ROADMAP.md               # Detalle de objetivos técnicos por sprint
-└── 📊 progress-tracker.json    # Métricas automatizadas (Lighthouse, Bundle Size)
+├── 🗺️ README.md               # Detalle de objetivos técnicos por sprint
+└── 🗺️ ROADMAP.md
 
 ```
 
