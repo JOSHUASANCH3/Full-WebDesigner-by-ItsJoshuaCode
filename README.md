@@ -2,7 +2,6 @@
 
 **Repositorio de Proyectos de Diseños Web**  
     \*Meta de Diseñador Web Full enfocado en el SEO y Optimizacion Web en 30 Dias
-    \*Meta de Diseñador Web Full enfocado en el SEO y Optimizacion Web en 30 Dias
 
 
 ## 📌 Objetivos
@@ -38,7 +37,6 @@
 
 
 
-
 ## 🛠️ Proyectos Clave
 
 
@@ -49,7 +47,6 @@
 | [☕ cafeteria-html-css-js](/week-1/cafeteria-html-css-js/README.md) | HTML, CSS, JS | [Pendiente](none)  | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-50%25-red)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-85%25-yellow)   ![📊_BP](https://img.shields.io/badge/📊_BP-100%25-green)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-100%25-green)    |
 | [Ecommerce #1](/week-2/Ecommerce-html-css-js/README.md)   | Pendiente | [Pendiente](none) | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-25%25-red)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-76%25-yellow)   ![📊_BP](https://img.shields.io/badge/📊_BP-80%25-yellow)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-80%25-yellow)  |
 | [Proyecto en Espera](none)   | Pendiente | [Pendiente](none) | ![🚀_PERF](https://img.shields.io/badge/🚀_PERF-0%25-grey)  ![🔍_ACCESS](https://img.shields.io/badge/🔍_ACCESS-0%25-grey)   ![📊_BP](https://img.shields.io/badge/📊_BP-0%25-grey)   ![📝_SEO](https://img.shields.io/badge/📝_SEO-0%25-grey)  |
-
 
 
 
