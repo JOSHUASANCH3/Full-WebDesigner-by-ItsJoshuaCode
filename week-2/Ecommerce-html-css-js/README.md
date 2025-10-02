@@ -1,6 +1,6 @@
-# ☕ CaferiaNatalia - Página Web de Cafeteria
+# ☕ Tienda de Ropa - Ecommerce
 
-- Lighthouse Score [ 🔺 0 - 49%] [ 🟧 50 - 89%] [ 🟢 90 - 100%]
+- Lighthouse Score [ 🔴 0 - 49%] [ 🟡 50 - 89%] [ 🟢 90 - 100%]
 
   - ![🚀_PERFORMANCE](https://img.shields.io/badge/🚀_PERFORMANCE-50%25-red)
   - ![🔍_ACCESIBILITY](https://img.shields.io/badge/🔍_ACCESIBILITY-85%25-yellow)
@@ -11,8 +11,9 @@
 
 ## 🧾 Descripción
 
-- **Tienda Eccommerce de Ropa** es una landing page moderna para una hamburguesería ficticia, desarrollada con HTML, CSS y JavaScript.  
+- **Tienda Eccommerce de Ropa** es una pagina Ecommerce solo el front-end, desarrollada con HTML, CSS y JavaScript.  
   - Esta pagina principal posee una estructura semantica en el HTML
+  - Se usara como base para las siguientes buenas practicas de desarrollo
     
 
 Este proyecto fue optimizado siguiendo las buenas prácticas de:
@@ -21,6 +22,8 @@ Este proyecto fue optimizado siguiendo las buenas prácticas de:
 - JS CONFIG  <!-- Aun no esta desarrollado  -->
 
 
+
+<!-- Es el listado de commits para su registro de desarrollo -->
 <!-- 
 git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 -m "📦 feat: Nueva funcionalidad." \
@@ -28,29 +31,51 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 -m "✨ style: Cambios en CSS/UI." \
 -m "📝 docs : Actualización de documentación." \
 -m "🔧 refactor : Mejoras de código sin cambiar funcionalidad." \
--m "🚀 perf: Optimizaciones de rendimiento.." 
+-m "🚀 perf: Optimizaciones de rendimiento." 
+-->
+
+
+<!-- 
+# Tag específico para cada version del proyecto
+git tag -a "week-2/ecommerce/index-v1.0.0" -m "Se completo la pagina Index." \
+-m "Componentes Implementados:" \
+-m "✅ Pagina Principal (index.html)" \
+-m "✅ Pagina Parcial del Footer al index (partials/footer.html)" \
+-m "✅ Implementacion del CSS para el diseño y responsividad" \
+-m "✅ Configuracion del JavaScript" \
+-m " " \
+-m "Archivos Incluidos:" \
+-m " - index.html" \
+-m " - partials/footer.html" \
+-m " - assets/css/main.css" \
+-m " - assets/config/main.js" \
+-m " - README.md" \
+-m " " \
+-m " Ubicacion: week-2/Ecommerce-html-css-js" \
 -->
 
 
 
-
 ## 📸 Notas
-
-- Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
-- Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
-- Dia 13: se termino la seccion products con sus html y css
-- Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
-- Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
-- Dia 14: Se termino la seccion de products y correcion de diseño.
--  Dia 15: Completado la seccion de Deals.
--  Dia 15: Completado la seccion de new Arrivals.
--  Dia 15: Se creo una seccion #showcase.
+- **Desarrollo de pagina index.html segun los dias tomados** 
+  - Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
+  - Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
+  - Dia 13: se termino la seccion products con sus html y css
+  - Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
+  - Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
+  - Dia 14: Se termino la seccion de products y correcion de diseño.
+  - Dia 15: Completado la seccion de Deals.
+  - Dia 15: Completado la seccion de new Arrivals.
+  - Dia 15: Se creo una seccion #showcase.
+  - Dia 16: Se completo la seccion showcase
+  - Dia 16: Se agrego la seccion footer
+  - Dia 17: Se completo la seccion partials/footer con HTML, CSS y JS para su funcionamiento
 
 
 
 ## 🚀 Tecnologías utilizadas
 
-- En proceso con la documentacion
+- Sin documentacion
 
 
 
@@ -67,8 +92,13 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 │   │   └── main.js
 │   ├── /img
 │   │   └── logo.png
-│   ├── /fonts
-│   └── /vendor        # Librerías externas como Bootstrap, Swiper, etc.
+│   └── /vendor    # Librerías externas como Bootstrap, Swiper, etc.
+│
+├── /partials      # Ubicación de parciales a nivel de raíz
+│   ├── header.html
+│   ├── footer.html
+│   ├── navbar.html
+│   └── sidebar.html
 │
 ├── /pages
 │   ├── accounts.html
@@ -77,18 +107,12 @@ git commit -m "🗓 Day #$: Lo que se avanzo en ese dia." \
 │   ├── compare.html
 │   ├── details.html
 │   ├── login-register.html
-│   ├── shop.html
-│   └── index.html     # También lo puedes dejar en la raíz si prefieres
-│
-├── /partials
-│   ├── header.html
-│   ├── footer.html
-│   ├── navbar.html
-│   └── sidebar.html
+│   └── shop.html
 │
 ├── /data
-│   └── products.json  # Si manejas datos en JSON
+│   └── products.json
 │
+├── index.html     # El archivo principal en la raíz
 └── README.md
 
 ```
