@@ -115,17 +115,3 @@
 |    2   | 📅Día 16 | Se completo la seccion showcase y se agrego la seccion de footer | ✅ - Realizado |
 |    2   | 📅Día 17 | Se termino la seccion de footer y completado el index | ✅ - Realizado |
 |    2   | 📅Día 18 | Sin informacion | ⏳ - Pendiente |
-
-
-Dia 10: se agrego la seccion de home y categorias. Se realizo el HTML y CSS correspondiente
-  - Dia 12: se agrego un nueva funcionalidad el swiper y botones al archivo pages/index con su html y css
-  - Dia 13: se termino la seccion products con sus html y css
-  - Dia 13: se agrego nueva funcionalidad products tabs, para identificar cada categoria por tags independiente
-  - Dia 13: se corrigieron todos los errores del desarrollo de la pagina hasta la seccion products
-  - Dia 14: Se termino la seccion de products y correcion de diseño.
-  - Dia 15: Completado la seccion de Deals.
-  - Dia 15: Completado la seccion de new Arrivals.
-  - Dia 15: Se creo una seccion #showcase.
-  - Dia 16: Se completo la seccion showcase
-  - Dia 16: Se agrego la seccion footer
-  - Dia 17: Se completo la seccion partials/footer con HTML, CSS y JS para su funcionamiento
