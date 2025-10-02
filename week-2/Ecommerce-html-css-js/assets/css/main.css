@@ -888,12 +888,13 @@ input {
 /*=============== FOOTER ===============*/
 
 .footer__container {
-    grid-template-columns: repeat(2, 2fr) 3.5fr;
-    padding-bottom: 2.5rem;
+    grid-template-columns: 4.5fr repeat(2, 2fr) 3.5fr;
+    padding-block: 2.5rem;
 }
 
 .footer__logo-img {
     width: 120px;
+    min-width: auto;
 }
 
 .footer__subtitle {
@@ -920,6 +921,7 @@ input {
 
 .footer__social-img {
     width: 20px;
+    min-width: auto;
     opacity: 0.7;
 }
 
@@ -939,6 +941,10 @@ input {
 .footer__link:hover {
     color: var(--first-color);
     margin-left: 0.25rem;
+}
+
+.footer__payment-img {
+    min-width: auto;
 }
 
 .footer__bottom {

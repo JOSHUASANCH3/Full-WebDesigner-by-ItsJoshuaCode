@@ -87,9 +87,9 @@ tabs.forEach((tab) => {
 });
 
 /*=============== FOOTER PARTIALS ===============*/
-// Cargar el partial del footer
+// Script para cargar el partials/footer al index
 fetch("../partials/footer.html")
     .then((res) => res.text())
     .then((data) => {
-        document.getElementById("footer").innerHTML = data;
+        document.getElementById("footer__partials").innerHTML = data;
     });
