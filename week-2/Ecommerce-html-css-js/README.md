@@ -45,8 +45,8 @@ git tag -a "week-2/ecommerce/index-v1.0.0" -m "Se completo la pagina Index." \
 -m "✅ Configuracion del JavaScript" \
 -m " " \
 -m "Archivos Incluidos:" \
--m " - pages/index.html" \
--m " - pages/partials/footer.html" \
+-m " - index.html" \
+-m " - partials/footer.html" \
 -m " - assets/css/main.css" \
 -m " - assets/config/main.js" \
 -m " - README.md" \
