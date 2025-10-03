@@ -1,43 +1,734 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FLATICON ===============-->
-    <link rel="stylesheet" href="" />
+<head>
+  <meta charset="UTF-8" />
+  <!-- Page Title -->
+  <title>Ecommerce Website</title>
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+  <!-- Meta Keywords and Description -->
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" />
 
-    <title>Ecommerce Website</title>
-  </head>
-  <body>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Main CSS Files -->
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <!-- Header Top -->
+    <div class="header__top">
+      <div class="header__container container">
+        <div class="header__contact">
+          <span>(+505) 82739293</span>
+          <span>Our Location</span>
+        </div>
+        <p class="header__alert-news">
+          Super Value Deals - Save more with coupons
+        </p>
+        <a href="../pages/login-register.html" class="header__top-action">Log in / Sign Up</a>
+      </div>
+    </div>
+
     <!--=============== HEADER ===============-->
-    <header class="header"></header>
+    <nav class="header__nav container">
+      <a href="/week-2/Ecommerce-html-css-js/index.html" class="nav__logo">
+        <img src="../assets/images/logo.svg" alt="Logo del Ecommerce" class="nav__logo-img">
+      </a>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== BREADCRUMB ===============-->
-      <section class="breadcrumb"></section>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <!-- Home Page -->
+          <li class="nav__item">
+            <a href="/week-2/Ecommerce-html-css-js/index.html" class="nav__link">Home</a>
+          </li>
+          <!-- Shop Page -->
+          <li class="nav__item">
+            <a href="../pages/shop.html" class="nav__link active__link">Shop</a>
+          </li>
+          <!-- Page Account -->
+          <li class="nav__item">
+            <a href="../pages/accounts.html" class="nav__link">My Account</a>
+          </li>
+          <!-- Compare Page -->
+          <li class="nav__item">
+            <a href="../pages/compare.html" class="nav__link">Compare</a>
+          </li>
+          <!-- Login Page -->
+          <li class="nav__item">
+            <a href="../pages/login-register.html" class="nav__link">Login</a>
+          </li>
+        </ul>
 
-      <!--=============== PRODUCTS ===============-->
-      <section class="products"></section>
+        <div class="header__search">
+          <input type="text" placeholder="Search for items..." class="form__input">
+          <button class="search__btn">
+            <img src="../assets/images/company-images/search.png" alt="Icono de imagen de busqueda">
+          </button>
+        </div>
+      </div>
 
-      <!--=============== NEWSLETTER ===============-->
-      <section class="newsletter"></section>
-    </main>
+      <div class="header__user-actions">
+        <!-- Icon de Corazon -->
+        <a href="../pages/wishlist.html" class="header__action-btn">
+          <img src="../assets/images/company-images/icon-heart.svg" alt="Icono de corazon">
+          <span class="count">3</span>
+        </a>
+
+        <!-- Icon de Compra -->
+        <a href="../pages/cart.html" class="header__action-btn">
+          <img src="../assets/images/company-images/icon-cart.svg" alt="Icono de carrito de compras">
+          <span class="count">3</span>
+        </a>
+      </div>
+
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== BREADCRUMB ===============-->
+    <section class="breadcrumb">
+      <ul class="breadcrumb__list flex container">
+        <li><a href="../index.html" class="breadcrum__link">Home</a></li>
+        <li><span class="breadcrumb__link">></span></li>
+        <li><span class="breadcrumb__link">Shop</span></li>
+      </ul>
+    </section>
+
+    <!--=============== PRODUCTS ===============-->
+    <section class="products section__lg container">
+      <p class="total__products">We found <span>688</span> items for you!</p>
+      <div class="products__container grid">
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-PINK -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-1-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-1-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-pink">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-GREEN -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-2-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-2-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-green">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-ORANGE -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-3-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-3-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-orange">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-BLUE -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-4-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-4-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-blue">30%</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-PINK -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-5-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-5-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-pink">-30%</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-GREEN -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-6-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-6-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-green">-22%</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-ORANGE -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-7-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-7-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-orange">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-BLUE -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-8-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-8-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <!-- <div class="product__badge light-orange">Hot</div> -->
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-PINK -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-5-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-5-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-pink">-30%</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-GREEN -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-6-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-6-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-green">-22%</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-ORANGE -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-7-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-7-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <div class="product__badge light-orange">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ? TARJETA COMPLETA DEL PRODUCTO LIGHT-BLUE -->
+        <div class="product__item">
+          <div class="product__banner">
+            <!-- Imagen del producto -->
+            <a href="../pagesdetails.html" class="product__images">
+              <img src="../assets/images/gallery-images/product-8-1.jpg" alt="Producto Numero 1"
+                class="product__img default">
+              <img src="../assets/images/gallery-images/product-8-2.jpg" alt="Producto Numero 1"
+                class="product__img hover">
+            </a>
+
+            <!-- Botones de Accion de producto -->
+            <div class="product__actions">
+              <!--TODO ICONO DE OJO  -->
+              <span><i class="fa-regular fa-eye" aria-label="Quick View"></i></span>
+              <!--TODO ICONO DE CORAZON  -->
+              <span><i class="fa-regular fa-heart" aria-label="Add to Whislist"></i></span>
+              <!--TODO ICONO DE COMPATIR  -->
+              <span><i class="fa-solid fa-code-compare" arial aria-label="Compare"></i></span>
+            </div>
+
+            <!-- <div class="product__badge light-orange">Hot</div> -->
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="../pagesdetails.html">
+              <h3 class="product__title">Colorful Pattern Shirts</h3>
+            </a>
+            <!--? ICONO DE ESTRELLA  -->
+            <div class="product__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <!-- <i class="fa-regular fa-star"></i> -->
+            </div>
+            <div class="product__price flex">
+              <span class="new__price">238.85</span>
+              <span class="old__price">245.99</span>
+            </div>
+            <a href="#" class="action__btn cart__btn" aria-label="Add to Cart">
+              <!--? ICONO DE CARRITO DE COMPRA  -->
+              <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <ul class="pagination">
+        <li><a href="#" class="pagination__link active">01</a></li>
+        <li><a href="#" class="pagination__link">02</a></li>
+        <li><a href="#" class="pagination__link">03</a></li>
+        <li><a href="#" class="pagination__link">...</a></li>
+        <li><a href="#" class="pagination__link icon"><i class="fa-solid fa-angle-right"></i></a></li>
+      </ul>
+    </section>
+
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter section home__newsletter">
+      <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+          <img src="../assets/images/company-images/icon-email.svg" alt="" class="newsletter__img">
+          News up to Newsletter
+        </h3>
+        <p class="newsletter__description">
+          ...and recive 125 coupon first shopping
+        </p>
+        <form action="" class="newsletter__form">
+          <input type="text" placeholder="Enter your Email" class="newsletter__input">
+          <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+    <div id="footer__partials"></div>
+
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
-    <script src=""></script>
-  </body>
+    <script src="../assets/config/main.js"></script>
+    <!--=============== ICONS ===============-->
+    <script src="https://kit.fontawesome.com/1b56d306fa.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
