@@ -7,6 +7,18 @@
 /* Validate if constant exists */
 
 /*=============== IMAGE GALLERY ===============*/
+function imgGallery() {
+    const mainImg = document.querySelector(".details__img"),
+        smallImgs = document.querySelectorAll(".details__small-img");
+
+    smallImgs.forEach((img) => {
+        img.addEventListener("click", function () {
+            mainImg.src = this.src;
+        });
+    });
+}
+
+imgGallery();
 
 /*=============== SWIPER CATEGORIES ===============*/
 const swiperCategories = new Swiper(".categories__container", {
@@ -69,7 +81,6 @@ const swiperProducts = new Swiper(".new-arrivals__container", {
 /*=============== PRODUCTS TABS ===============*/
 const tabs = document.querySelectorAll("[data-target]"),
     tabContents = document.querySelectorAll("[data-content]");
-console.log(tabs);
 
 tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
