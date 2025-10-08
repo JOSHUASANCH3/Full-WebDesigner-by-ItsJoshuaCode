@@ -31,14 +31,24 @@ const swiperCategories = new Swiper(".categories__container", {
     },
     // Responsive breakpoints
     breakpoints: {
-        // when window width is >= 640px
-        640: {
+        // when window width is >= 350px
+        350: {
             slidesPerView: 2,
             spaceBetween: 24,
         },
         // when window width is >= 768px
         768: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+        },
+        // when window width is >= 992px
+        992: {
             slidesPerView: 4,
+            spaceBetween: 24,
+        },
+        // when window width is >= 768px
+        1200: {
+            slidesPerView: 5,
             spaceBetween: 24,
         },
         // when window width is >= 1400px
@@ -60,14 +70,14 @@ const swiperProducts = new Swiper(".new-arrivals__container", {
     },
     // Responsive breakpoints
     breakpoints: {
-        // when window width is >= 640px
-        640: {
+        // when window width is >= 760px
+        768: {
             slidesPerView: 2,
             spaceBetween: 24,
         },
-        // when window width is >= 768px
-        768: {
-            slidesPerView: 4,
+        // when window width is >= 992px
+        992: {
+            slidesPerView: 3,
             spaceBetween: 24,
         },
         // when window width is >= 1400px
