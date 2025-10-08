@@ -885,6 +885,7 @@ table {
     font-family: var(--second-font);
     font-size: var(--small-font-size);
     font-weight: var(--weight-600);
+    text-align: center;
 }
 
 .newsletter__form {
@@ -1474,6 +1475,17 @@ table {
 /*=============== COMPARE ===============*/
 
 /*=============== LOGIN & REGISTER ===============*/
+.login-register__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+}
+
+.login,
+.register {
+    border: 1px solid var(--border-color-alt);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
 
 /*=============== ACCOUNTS ===============*/
 
