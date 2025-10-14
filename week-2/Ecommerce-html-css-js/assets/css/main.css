@@ -916,6 +916,7 @@ table {
     cursor: pointer;
     transition: all 0.3s var(--transition);
 }
+
 .newsletter__btn:hover {
     background-color: var(--first-color);
 }
@@ -1575,6 +1576,9 @@ table {
     padding: 2rem;
     border-radius: 0.5rem;
 }
+
+/* Primer guardado */
+/* Segundo guardado */
 
 /*=============== ACCOUNTS ===============*/
 
